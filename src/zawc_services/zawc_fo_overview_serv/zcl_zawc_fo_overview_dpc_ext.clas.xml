@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZAWC_FO_OVERVIEW_DPC_EXT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Sekundäre Data-Provider-Klasse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Confirmed orders cannot be rejected</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Accepted announcements cannot be rejected</ENTRY>
+       <LENGTH>82</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_FO_OVERVIEW_DPC_EXT</CLSNAME>
+     <CMPNAME>ENTITYSET_FILTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Perform $filter on Entity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_FO_OVERVIEW_DPC_EXT</CLSNAME>
+     <CMPNAME>ENTITYSET_ORDER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Perform $orderby on Entity</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

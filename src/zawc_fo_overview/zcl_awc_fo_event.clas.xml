@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>AWC App - Ereignisse</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>CREATE_EVENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ereignis hinzufügen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>GET_EVENTS_BY_FO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ergeignisse zu FO ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>GET_EVENT_BY_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ereignis ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>GET_EVENT_DESC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Beschreibung zum Event_Code ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>GET_LAST_EVENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Letztes gemeldetes Ereignis ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FO_EVENT</CLSNAME>
+     <CMPNAME>REVOKE_EVENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ereignis zurückrufen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

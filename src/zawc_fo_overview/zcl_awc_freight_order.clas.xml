@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>AWC App - Frachtaufträge</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>000</KEY>
+       <ENTRY>Bestätigte Aufträge können nicht abgelehnt werden</ENTRY>
+       <LENGTH>98</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <I18N_LINES>
+    <item>
+     <LANGUAGE>D</LANGUAGE>
+    </item>
+   </I18N_LINES>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>CALC_REMAINING_ANNO_TIME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verbleibende Zeit für Ausschreibung berechnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>CHECK_AMOUNTS_CHANGED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Überprüfen, ob Mengen geändert wurden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>CONFIRM_FO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Frachtauftragstatus auf Bestätigt setzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>CONFIRM_REJECT_ANNO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausschreibung annehmen / ablehnen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_ASSIGNED_FUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zugeordnete FUs zu FOs ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_CHARGES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Transportcharges zu FO ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_DOM_VALUES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Festwerte aus Domänen ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_FO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelnen Frachtauftrag holen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_FOS_FROM_TOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Frachtaufträge aus TOR ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_PARTNER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kontaktdaten zu Partnern ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_PICK_DROP_DATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abhol- und Lieferdatum zu FO ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_STATUS_DESCR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Statusbeschreibung zur StatusID ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_TEND_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausschreibungsdaten zu FO ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>GET_VEH_RES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fahrzeugressource und Registrierungsnummer ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_AWC_FREIGHT_ORDER</CLSNAME>
+     <CMPNAME>REJECT_FO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Frachtauftragsstatus auf Abgelehnt setzen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

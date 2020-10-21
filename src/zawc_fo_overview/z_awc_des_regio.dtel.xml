@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_AWC_DES_REGIO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>REGIO</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Destination Region</DDTEXT>
+    <REPTEXT>DesRg</REPTEXT>
+    <SCRTEXT_S>Des Region</SCRTEXT_S>
+    <SCRTEXT_M>Des Region</SCRTEXT_M>
+    <SCRTEXT_L>Destination Region</SCRTEXT_L>
+    <APPLCLASS>FB</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>REGION</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Region Ziellokation</DDTEXT>
+     <REPTEXT>DesRg</REPTEXT>
+     <SCRTEXT_S>Zielregion</SCRTEXT_S>
+     <SCRTEXT_M>Zielregion</SCRTEXT_M>
+     <SCRTEXT_L>Region Ziellokation</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

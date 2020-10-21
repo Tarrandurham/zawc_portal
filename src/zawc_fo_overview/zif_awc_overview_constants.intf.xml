@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_AWC_OVERVIEW_CONSTANTS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Konstanteninterface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_AWC_OVERVIEW_CONSTANTS</CLSNAME>
+     <CMPNAME>C_CONFIRMATION_DOMAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name eines ABAP Dictionary-Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_AWC_OVERVIEW_CONSTANTS</CLSNAME>
+     <CMPNAME>C_DELIVERY_DOMAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name eines ABAP Dictionary-Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_AWC_OVERVIEW_CONSTANTS</CLSNAME>
+     <CMPNAME>C_EXECUTION_DOMAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name eines ABAP Dictionary-Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_AWC_OVERVIEW_CONSTANTS</CLSNAME>
+     <CMPNAME>C_LIFECYCLE_DOMAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name eines ABAP Dictionary-Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_AWC_OVERVIEW_CONSTANTS</CLSNAME>
+     <CMPNAME>C_SUBCONTRACTING_DOMAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name eines ABAP Dictionary-Objekts</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

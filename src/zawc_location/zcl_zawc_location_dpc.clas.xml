@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ZAWC_LOCATION_DPC</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Datenanbieter-Basiskl.</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_LOCATION_DPC</CLSNAME>
+     <CMPNAME>ETCLIENTSET_CREATE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  EtClientSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_LOCATION_DPC</CLSNAME>
+     <CMPNAME>ETCLIENTSET_DELETE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  EtClientSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_LOCATION_DPC</CLSNAME>
+     <CMPNAME>ETCLIENTSET_GET_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  EtClientSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_LOCATION_DPC</CLSNAME>
+     <CMPNAME>ETCLIENTSET_GET_ENTITYSET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  EtClientSet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_ZAWC_LOCATION_DPC</CLSNAME>
+     <CMPNAME>ETCLIENTSET_UPDATE_ENTITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zug. EntitätsmengName:  EtClientSet</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

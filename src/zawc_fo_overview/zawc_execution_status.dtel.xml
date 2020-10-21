@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZAWC_EXECUTION_STATUS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZAWC_STATUS_DESC</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Execution Status</DDTEXT>
+    <REPTEXT>Execution Status</REPTEXT>
+    <SCRTEXT_S>ExecStatus</SCRTEXT_S>
+    <SCRTEXT_M>Execution Status</SCRTEXT_M>
+    <SCRTEXT_L>Execution Status</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ausführungsstatus</DDTEXT>
+     <REPTEXT>Ausführungsstatus</REPTEXT>
+     <SCRTEXT_S>AusfStatus</SCRTEXT_S>
+     <SCRTEXT_M>Ausführungsstatus</SCRTEXT_M>
+     <SCRTEXT_L>Ausführungsstatus</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

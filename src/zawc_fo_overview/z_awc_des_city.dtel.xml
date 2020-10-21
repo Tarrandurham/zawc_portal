@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_AWC_DES_CITY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT40</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Destination City</DDTEXT>
+    <REPTEXT>Destination City</REPTEXT>
+    <SCRTEXT_S>Des City</SCRTEXT_S>
+    <SCRTEXT_M>Des City</SCRTEXT_M>
+    <SCRTEXT_L>Destination City</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <SHLPNAME>CLCITYNAME</SHLPNAME>
+    <SHLPFIELD>CITY_NAME</SHLPFIELD>
+    <DEFFDNAME>CITY</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ort Ziellokation</DDTEXT>
+     <REPTEXT>Zielort</REPTEXT>
+     <SCRTEXT_S>Zielort</SCRTEXT_S>
+     <SCRTEXT_M>Zielort</SCRTEXT_M>
+     <SCRTEXT_L>Ort Ziellokation</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

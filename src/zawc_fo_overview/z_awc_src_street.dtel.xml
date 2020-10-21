@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_AWC_SRC_STREET</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT60</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Source Street</DDTEXT>
+    <REPTEXT>Source Street</REPTEXT>
+    <SCRTEXT_S>Src Street</SCRTEXT_S>
+    <SCRTEXT_M>Source Street</SCRTEXT_M>
+    <SCRTEXT_L>Source Street</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <SHLPNAME>CLSTRTNAME</SHLPNAME>
+    <SHLPFIELD>STREET</SHLPFIELD>
+    <DEFFDNAME>STREET</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Straße Quellokation</DDTEXT>
+     <REPTEXT>Straße Quelllokation</REPTEXT>
+     <SCRTEXT_S>Straße Que</SCRTEXT_S>
+     <SCRTEXT_M>Straße Quelllok</SCRTEXT_M>
+     <SCRTEXT_L>Straße Quelllokation</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
