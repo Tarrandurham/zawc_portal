@@ -200,27 +200,7 @@ CLASS ZCL_AWC_TRQ IMPLEMENTATION.
 *      ls_trq_item-qua_pcs_val = <ls_trq_item>-qua_pcs_val.
 *      ls_trq_item-qua_pcs_uni = <ls_trq_item>-qua_pcs_uni.
 *
-*      ls_trq_item-measuom = <ls_trq_item>-measuom.
-*      ls_trq_item-length = <ls_trq_item>-length.
-*      ls_trq_item-height = <ls_trq_item>-height.
-*      ls_trq_item-width = <ls_trq_item>-width.
-*
-*      ls_trq_item-gro_wei_val = <ls_trq_item>-gro_wei_val * <ls_trq_item>-qua_pcs_val.
-*      ls_trq_item-gro_wei_uni = <ls_trq_item>-gro_wei_uni.
-*
-*      ls_trq_item-gro_vol_val = <ls_trq_item>-gro_vol_val.
-*      ls_trq_item-gro_vol_uni = <ls_trq_item>-gro_vol_uni.
-*      ls_trq_item-zz_stackability = <ls_trq_item>-maxstack.
-*
-*      DATA(lv_prd_id) = <ls_trq_item>-prd_id.
-*      SHIFT lv_prd_id LEFT DELETING LEADING '0'.
-*
-*      ls_trq_item-main_cargo_item = abap_true.
-*      ls_trq_item-item_descr      = lv_prd_id.
-*      ls_trq_item-item_cat        = ms_trq_rel_data-item_cat.
-*      ls_trq_item-item_type       = ms_trq_rel_data-item_cat.
-*      ls_trq_item-package_id      = lv_prd_id.
-**      ls_trq_item-package_tco     = 'PAL'.
+
 
 
       IF <ls_trq_item>-Item_Cat EQ 'PKG'.
